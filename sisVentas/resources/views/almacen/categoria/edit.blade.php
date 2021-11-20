@@ -21,6 +21,8 @@
 {!! Form::model($categoria,['method'=>'PATCH','route'=>['categoria.update',$categoria->IdCategoria]]) !!}
 {!! Form::token() !!}
 
+<label> Esta es una etiqueta</label>
+
 <div class="form-group">
     <label for="Nombre">Nombre</label>
     <input type="text" name="Nombre" class="form-control" value="{{$categoria->Nombre}}" placeholder="Nombre">
